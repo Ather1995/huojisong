@@ -12,3 +12,5 @@
 ![overall](https://github.com/Ather1995/huojisong/blob/master/display/hjs_overall.gif?raw=true)
 
 ### 产品logo
+![logo](https://github.com/Ather1995/huojisong/blob/master/display/logo.png?raw=true)
+各种图
