@@ -8,9 +8,25 @@
 
 ## 功能演示视频
 
-这是整体功能展示，包括更换头像，下单，抢单等等。
+这是整体功能展示，包括更换头像，下单，抢单等等。\<br>
 ![overall](https://github.com/Ather1995/huojisong/blob/master/display/hjs_overall.gif?raw=true)
 
-### 产品logo
+### 产品logo\<br>
 ![logo](https://github.com/Ather1995/huojisong/blob/master/display/logo.png?raw=true)
-各种图
+各种图\<br>
+![overall](https://github.com/Ather1995/huojisong/blob/master/display/lb1.png?raw=true)
+![overall](https://github.com/Ather1995/huojisong/blob/master/display/lb2.png?raw=true)
+![overall](https://github.com/Ather1995/huojisong/blob/master/display/acty.png?raw=true)
+![overall](https://github.com/Ather1995/huojisong/blob/master/display/aty.png?raw=true)
+![overall](https://github.com/Ather1995/huojisong/blob/master/display/cardetail.png?raw=true)
+![overall](https://github.com/Ather1995/huojisong/blob/master/display/coin.png?raw=true)
+![overall](https://github.com/Ather1995/huojisong/blob/master/display/exService.png?raw=true)
+![overall](https://github.com/Ather1995/huojisong/blob/master/display/findcar.png?raw=true)
+![overall](https://github.com/Ather1995/huojisong/blob/master/display/map.png?raw=true)
+![overall](https://github.com/Ather1995/huojisong/blob/master/display/money.png?raw=true)
+![overall](https://github.com/Ather1995/huojisong/blob/master/display/my.png?raw=true)
+![overall](https://github.com/Ather1995/huojisong/blob/master/display/order.png?raw=true)
+![overall](https://github.com/Ather1995/huojisong/blob/master/display/order_manage.png?raw=true)
+![overall](https://github.com/Ather1995/huojisong/blob/master/display/ordercar.png?raw=true)
+![overall](https://github.com/Ather1995/huojisong/blob/master/display/route.png?raw=true)
+![overall](https://github.com/Ather1995/huojisong/blob/master/display/youhui.png?raw=true)
