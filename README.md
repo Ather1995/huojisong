@@ -8,4 +8,7 @@
 
 ## 功能演示视频
 
+这是整体功能展示，包括更换头像，下单，抢单等等。
+![overall](https://github.com/Ather1995/huojisong/blob/master/display/hjs_overall.gif?raw=true)
 
+### 产品logo
