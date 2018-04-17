@@ -145,13 +145,19 @@ UIScrollPicture.open({
 ### (3)百度map
 手机地图,封装了百度地图的开放 SDK
 bMap 模块封装了百度地图的原生 SDK，集成了百度地图常用基本接口；手机版原生地图，不同于 js 地图，相对于js地图而言，本模块封装的原生手机地图更加流畅迅速、动画效果更加逼真。使用此模块可轻松把百度地图集成到自己的app内，实现百度地图常用的定位、关键字搜索、周边搜索、自定义标注及气泡、查公交路线等各种功能；另外本模块已支持百度地图离线版本。
-
+```
+  <feature name="bMap">
+    <param name="android_api_key" value="f7Is0dWLom2q6rV3ZfFPZ1aa" />
+    <param name="ios_api_key" value="81qz3dBYB5q2nGji4IYrawr1" />
+  </feature>
+```
 ## APIcloud相对于原生开发的不足
-###（1）首先是标准的规范尚未定案。
+### 标准的规范尚未定案。
 APICloud 的实现需要多个层面的标准配套，如WAC标准、Device API标准以及HTML5标准。在这些标准都尚未完善之前，APICloud还无法完整实现Native App的常用功能。即便实现了以后，再流畅度和用户体验上仍然存在很大的问题；
-###（2）不同浏览器支持的差异性将成为长久的问题
+### 不同浏览器支持的差异性
 在PC端Firefox、IE、Chrome等浏览器虽然都遵循HTML标准，但最终展示效果仍旧会有偏差。在移动端这种情况只会进一步加剧。比如HTML5标准中对input的类型进行了定义，其中包括时间型如type=datetime。不同的浏览器展示出来的最终效果千差万别。另外CSS3的支持效果各个浏览器核心也会有自己的风格，做不到完全统一。这和Native App相比，成为比较大的弱势。
-### (3)移动设备浏览器的性能还不能支持与Native App体验媲美的API Cloud。和大多数web App相似，APICloud体验不流畅和响应速度慢是当前面临两个最大的硬伤。目前APICloud主要使用第三方的JS框架来完成开发，其中国外比较知名的包括JQuery Mobile、Sencha Touch、JQMobi等。这些开发框架的比较统一的特色比如都是把代码写在一个网页文件内，不同的界面通过不同的DIV切换来展示。这直接导致了WebApp在界面切换过程中的不流畅。而这一问题必须随着硬件的发展和软件的优化来逐渐的完善。
+###  移动设备浏览器的性能还不能支持API Cloud
+和大多数web App相似，APICloud体验不流畅和响应速度慢是当前面临两个最大的硬伤。目前APICloud主要使用第三方的JS框架来完成开发，其中国外比较知名的包括JQuery Mobile、Sencha Touch、JQMobi等。这些开发框架的比较统一的特色比如都是把代码写在一个网页文件内，不同的界面通过不同的DIV切换来展示。这直接导致了WebApp在界面切换过程中的不流畅。而这一问题必须随着硬件的发展和软件的优化来逐渐的完善。
 
 
 
