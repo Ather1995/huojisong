@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>title</title>
+    <link rel="stylesheet" type="text/css" href="../css/api.css"/>
+    <style>
+		html{height:100%;width: 100%;margin:no;padding:no;}
+		body{background-color:white;height:100%;width: 100%;margin:no;padding:no;font-family:CN Normal;	}
+		.main{display:-webkit-box;-webkit-box-orient:vertical;height:100%;width:100%;}
+		
+		.before_header{height:20px;width:100%;background:white;position:fixed;border:none;}
+		/*The top of the page*/
+		.header{background:white;height:46px;width:100%;display:-webkit-box;-webkit-box-orient:horizontal;border-bottom:1px solid #eeeeee;position:fixed;}
+		.space_before_back{width:20px;height:100%}
+		.back{display:-webkit-box;height:10px;width:9px;margin-top:auto;margin-bottom:auto;}
+		.back > img{margin-top:13px;height:15px;width:100%;}
+		.space_back_title{width:23px;height:100%}
+		#title_first{-webkit-box-flex:1;height:100%;color:#666666;font-size:18px;font-weight:bold;display:-webkit-box;-webkit-box-pack:end;-webkit-box-align:center;font-family:Microsoft YaHei;}
+		#title_second{width:50%;height:100%;color:#666666;font-size:18px;font-weight:bold;-webkit-box-align:center;display:-webkit-box;font-family:Microsoft YaHei;}
+    </style>
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="space_before_back"></div>
+			<div class="back" onclick="back()"><img src="../../image/back.png"/></div>
+			<div class="space_back_title"></div>
+			<div class="title" id="title_first">城</div>
+			<div class="title" id="title_second">市</div>
+		</div>
+		<div class="content"></div>
+	</div>
+</body>
+<script type="text/javascript" src="../script/api.js"></script>
+<script type="text/javascript">
+	apiready = function(){
+		var UICityList = api.require('UICityList');
+		var UICityList_h=api.winHeight-50;
+		UICityList.open({
+	    rect: {
+	        x: 0,
+	        y: 50,
+	        w: api.winWidth,
+	        h: UICityList_h
+	    },
+	    resource: 'widget://UICityList.json',
+	    styles: {
+	        searchBar: {
+	            bgColor: '#696969',
+	            cancelColor: '#E3E3E3'
+	        },
+	        location: {
+	            color: '#696969',
+	            size: 12
+	        },
+	        sectionTitle: {
+	            bgColor: '#eee',
+	            color: '#000',
+	            size: 12
+	        },
+	        item: {
+	            bgColor: '#fff',
+	            activeBgColor: '#696969',
+	            color: '#000',
+	            size: 14,
+	            height: 40
+	        },
+	        indicator: {
+	            bgColor: '#fff',
+	            color: '#696969'
+	        }
+	    },
+	    currentCity: '北京',
+	    locationWay: 'GPS',
+	    hotTitle: '热门城市',
+	    fixedOn: api.frameName,
+	    placeholder: '输入城市名或首字母查询'
+	}, function(ret, err) {
+		if(ret)
+		{
+			console.log(JSON.stringify(ret));
+			if(ret.eventType=="selected")
+			{
+				var city=ret.cityInfo.city;
+				console.log(city);
+				api.sendEvent({
+	                name:'changeCity',
+	                extra:{
+	                	city:city,
+	                	tag:"not_first_place"
+	                }
+                });
+                api.closeWin({
+                });
+			}
+		}
+		else
+		{
+			console.log(JSON.stringify(err));
+		}
+	});		
+	};
+	function back(){
+		api.closeWin({
+        });
+	}
+</script>
+</html>

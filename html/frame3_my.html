@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	<title>首页</title>
+	<style type="text/css">
+		html{ background-color: white;}
+		body{
+			    /*display: block;
+    margin: 8px;*/
+		}
+		.block1{
+			height: 225px;
+		}
+		.block2{
+			display: -webkit-box;
+			-webkit-box-orient: horizontal;
+			background-color: #a7bfbf;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		.block2 .image .img img{
+			height: 30px;
+			width: 30px;
+		}
+		.block2 .image .img{
+			display: inline-flex;
+			-webkit-box-flex: 1;
+		}
+		.block2 .image .text{
+			/*display: inline-flex;*/
+			-webkit-box-flex: 1;
+			font-size: 0.8em;
+		}
+		.block2 .image{
+			    -webkit-box-flex: 1;
+			    display: -webkit-box;
+			     -webkit-box-align: center;
+                 -webkit-box-orient: vertical;
+		}
+	</style>
+</head>
+
+
+<body>
+<div class="block1"></div>
+
+	<div class="block2">
+		<div class="image1 image">
+			<div class="img1 img">
+				<img src="../image/fr1_ordercar.png">
+			</div>
+			<div class="text">预约车</div>
+		</div>
+		<div class="image2 image">
+			<div class="img2 img">
+				<img src="../image/fr1_seek_car.png">
+			</div>
+			<div class="text">找车</div>
+		</div>
+
+		<div class="image3 image">
+			<div class="img3 img">
+				<img src="../image/fr1_manageorder.png">
+			</div>
+			<div class="text">货主订单管理</div>
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript">
+var UIScrollPicture;
+	apiready = function() {
+		UIScrollPicture = api.require('UIScrollPicture');	
+            UIScrollPicture.open({
+                rect : {
+                    x : 0,
+                    y : 0,
+                    w : api.winWidth,
+                    h : 200
+                },
+                data : {
+                    paths : ['widget://image/slide/1.png', 'widget://image/slide/2.png', 'widget://image/slide/3.png', 'widget://image/slide/4.png','widget://image/slide/5.png'],
+                    captions : ['猫', '可爱的萌宠喵星人', '西伯利亚,哈士奇犬,狗,两个,成年人,坐,一起', 'title4', 'title5']
+                },
+                styles : {
+                    caption : {
+                        height : 35,
+                        color : '#E0FFFF',
+                        size : 13,
+                        bgColor : '#696969',
+                        position : 'bottom'
+                    },
+                    indicator : {
+                        align : 'center',
+                        color : '#FFFFFF',
+                        activeColor : '#DA70D6'
+                    }
+                },
+                placeholderImg : 'widget://image/slide/1.png',
+                contentMode : 'scaleToFill',
+                interval : 3,
+                loop : true,
+                fixedOn: api.frameName,
+                fixed : false
+            }, function(ret, err) {
+                if (ret) {
+                    alert(JSON.stringify(ret));
+                } else {
+                    alert(JSON.stringify(err));
+                }
+            });
+        
+	}
+</script>
+</html>

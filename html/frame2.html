@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	<title>订单管理</title>
+	<link rel="stylesheet" type="text/css" href="../css/api.css" />
+    <link rel="stylesheet" type="text/css" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/light.css" class="light-style">
+    <link rel="stylesheet" href="../css/dark.css" class="dark-style" disabled>
+</head>
+<body>
+	<div class="order_manage-tabBar clearfix" id="button-switch" style="text-align: center;">
+				<div class="tabBar-btn pull-left active" tapmode="tap-active" onclick="changeGroupIndex(0);">全部</div>
+                <div class="tabBar-btn pull-left " tapmode="tap-active" onclick="changeGroupIndex(1);">服务中</div>
+                <div class="tabBar-btn pull-left " tapmode="tap-active" onclick="changeGroupIndex(2);">待评价</div>
+                <div class="tabBar-btn pull-left " tapmode="tap-active" onclick="changeGroupIndex(3);">已取消</div>
+                <div class="tabBar-bar"></div>
+	</div>
+	<div id="main" style="    height: inherit;"></div>
+
+</body>
+
+<script type="text/javascript" src="../script/api.js"></script>
+<script type="text/javascript" src="../script/theme.js"></script>
+<script type="text/javascript" src="../script/common.js"></script>
+<script type="text/javascript" src="../script/frame2.js"></script>
+</html>

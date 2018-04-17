@@ -1,0 +1,17 @@
+html,body {
+	min-height: 100%;
+	min-width: 100%;
+	background-color: #E3E2E1;
+	margin: 0;
+}
+.line{
+	margin:10px auto;
+	width:90%;
+	height:150px;
+
+}
+.line > img{
+	height:100%;
+	width:100%;
+	border-radius:10px;
+}

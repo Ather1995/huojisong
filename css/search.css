@@ -1,0 +1,77 @@
+html {width: 100%;height: 100%;background:transparent;
+  			margin: 0;}
+      body {background: rgba(0,0,0,0);min-height: 100%;overflow: hidden;margin: 0;margin-top: 110px;}
+      .total{
+    position: relative;
+    background: #fff;
+    height: 100%;
+    float: right;
+    border: 1px solid #e0e0e0;
+    width: 60%;
+    padding-bottom: 100px;
+      } 
+      .total .text1{
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .line1{
+        display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    height: 40px;
+      }  
+      .total .line1 .arrow img{
+        width: 100%;
+    max-width: 10px;
+    flex: right;
+    margin-right: 10px;
+      }  
+      .black{
+        -webkit-box-flex:1;
+      } 
+      .line2 .text1{
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      .line2{
+        display: -webkit-box;
+        -webkit-box-orient: horizontal;
+        -webkit-box-align: center;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #e0e0e0;
+      }
+      .myline{
+        font-size: 10px;
+      }
+      .line2 .arrow img{
+        width: 100%;
+    max-width: 10px;
+    flex: right;
+    margin-right: 10px;
+      }
+      .line3{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+      }
+      .line3 .input_text{
+            margin: 0 10px;
+        display: -webkit-box;
+        -webkit-box-orient: horizontal;
+        -webkit-box-align: center;
+      }
+      .line3 .input_text .input1{
+        -webkit-box-flex:1;
+
+      }
+      .line3 .input_text .input1 input{
+        width: 100%;
+      }
+      .line3 .input_text .line{
+        width: 30px;
+        text-align: center;
+      }
+      .line3 .text1{
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }

@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>底部导航</title>
+    <link rel="stylesheet" type="text/css" href="./css/api.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/common.css" />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+</head>
+<body>
+<div id="wrap" class="flex-wrap flex-vertical">
+    <header id="header">
+   <!--  <div style="height: 20px;
+    width: 100%;
+    background-color: #005a41;"></div> -->
+        <ul style="background-color: #037467;padding-top: 10px;">
+            <li class="border-b active" >
+            <div class="text">
+                <div class="item left active" style=""  onclick="changeGroupIndex(0);">货主</div>
+                <div class="item right" style="" onclick="changeGroupIndex(1);">司机</div>
+            </div>
+            </li>
+            <li class="border-b" >
+            	<!-- <div class="text2">
+                <div class="item left active" style=""  onclick="changeGroupIndex1(0);">找货</div>
+                <div class="item right" style="" onclick="changeGroupIndex1(1);">找车</div>
+            </div>  -->
+            优惠活动
+            </li>
+            <li class="border-b" >订单管理</li>
+            <li class="border-b" >我的</li>
+        </ul>
+    </header>
+    <div id="main" class="flex-con">
+
+    </div>
+    <div id="footer" class="border-t">
+        <ul class="flex-wrap" >
+            <li tapmode="hover" onclick="randomSwitchBtn( this );changeGroup1Index(0)" class="flex-con active" >下单</li>
+            <li tapmode="hover" onclick="randomSwitchBtn( this );changeGroup1Index(1)" class="flex-con" >优惠活动</li>
+            <li tapmode="hover" onclick="randomSwitchBtn( this );changeGroup1Index(2);refreshOrder()" class="flex-con">订单管理</li>
+            <li tapmode="hover" onclick="randomSwitchBtn( this );changeGroup1Index(3)" class="flex-con" >我的</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="script/api.js"></script>
+<script type="text/javascript" src="script/index.js"></script>

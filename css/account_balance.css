@@ -1,0 +1,123 @@
+#index #header
+            {
+            height: 60px;
+            color: #fff;
+            background-color:#005a4e;
+            background: #037467;
+            display: -webkit-box;
+            -webkit-box-orient: horizontal;
+            -webkit-box-align: center;
+        }
+        #index #header .image img{
+            position: inherit;display: inline-block;float: left;margin-top: 15px;
+            height: 20px;
+            margin-left: 10px;
+        }
+        #index #header .image{
+            height:50px;
+            width:62px;
+        }
+
+
+        
+        #index #header .text1{
+                text-align: center;
+                font-size: 18px;
+                -webkit-box-flex: 1;
+       }
+		
+		html,body
+		{min-height: 100%;background-color: #E3E2E1;}
+		#header{
+		text-align:center;
+		width:100%;
+		height:50px;
+		background:#CDCDC1;
+		}
+
+		#index .icon{
+			    height: 225px;
+				text-align: center;
+		}
+		#index .icon img{
+			height: 120px;
+			width: 120px;
+			margin-top: 120px;
+		}
+		.icon  .text1{
+			background:#FFFFFF;
+			height:40px;
+			color:#9D9D9D;	
+			margin:1px;
+			line-height:45px;
+		}
+		.text2{
+			width: 62px;
+		}
+		#index .lower{
+			height:250px;
+			background-color:#FFFFFF;
+		}
+		.lower  .text2{
+		font-size:15px;
+		font-family:黑体;
+		padding:5px;
+
+		
+		}
+		
+		.icontext{
+			    font-size: 12px;
+    margin-top: 10px;
+    color: #989999;
+		}
+		#index .text_border1{
+			width:85%;
+			height:50px;
+			background-color:#FFFFFF; 
+		-moz-border-radius: 5px; 
+		-webkit-border-radius: 5px; 
+		border:1px solid #000; 
+		margin-left: 5px;
+		margin:none;
+		}
+		.lower .img2{
+			width:27%;
+			margin-left:10px;
+			height:80px;
+		}
+		#index .lowest{
+			margin-top:3px;
+			height:55px;
+			background-color:#FFFFFF;
+		}
+		.text3{
+		font-size:20px;
+		font-family:宋体;
+		padding:5px;
+		text-align:center;
+		}
+		#footer {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    height: 2em;
+    line-height: 2em;
+    position: fixed;
+    bottom: 0;
+    color: #037467;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+		#footer .bottom1 {
+		width: 10px;
+}
+		#footer .exitbtn {
+		-webkit-box-flex: 1;
+		border-radius: 4px;
+		border: 1px solid #037467;
+		background-color: #fff;
+}
+.exitbtnhover {background-color: #037467;color: #fff;}
+.fmbtnhover {background: #D8D9DA ;}
+		

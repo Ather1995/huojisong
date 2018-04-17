@@ -1,0 +1,85 @@
+    			#index #header
+			{
+            height: 60px;
+			color: #fff;
+			background-color:#005a4e;
+			background: #037467;
+			display: -webkit-box;
+			-webkit-box-orient: horizontal;
+			-webkit-box-align: center;
+        }
+        #index #header .image img{
+            position: inherit;display: inline-block;float: left;margin-top: 15px;
+            height: 20px;
+            margin-left: 10px;
+        }
+		#index #header .image{
+			height:50px;
+			width:62px;
+		}
+
+         #index #header .text1{
+			    text-align: center;
+				font-size: 18px;
+				-webkit-box-flex: 1;
+		}
+		#index #header .text2{
+			width:62px;
+		}
+		
+		html,body
+		{
+			min-height: 100%;background-color: #E3E2E1;margin: 0;
+			    display: -webkit-box;
+    -webkit-box-orient: vertical;
+		}
+		#header{
+		text-align:center;
+		width:100%;
+		min-height: 100%;
+		background:#CDCDC1;
+		}
+
+		#footer{
+	background-color: #037467;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+
+		}
+		.middle{
+			    display: -webkit-box;
+			    -webkit-box-orient: horizontal;
+                -webkit-box-align: center;
+		}
+		.black{
+			-webkit-box-flex:1;
+		}
+		.icon{
+			text-align: center;
+		}
+		#index .icon img {
+        height: 120px;
+    width: 120px;
+    margin-top: 120px;
+}
+
+.logo img{height: 30px;
+    margin-right: 10px;}
+#index .icon .icontext1{
+	margin-top: 10px;
+    color: #989999;
+    font-size: 15px
+
+}
+#index .icon .icontext2{
+	margin-top: 5px;
+	font-size: 13px;
+	color: #989999;
+
+}

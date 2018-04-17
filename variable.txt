@@ -1,0 +1,30 @@
+******************global variable*******************
+1.users
+a> id --------------------- user's id
+b> tel -------------------- user's tel
+c> login ------------------ user's login state
+d> nickname --------------- user's nickname
+e> identity --------------- driver/passenger
+f> car_id ----------------- s_mini/l_mini/s_flat/l_flat
+
+2.html
+a>header-Height ---------- height of the headers
+b>foot-Height ------------ height of the foot
+
+3.network
+a>network ---------------- net work status
+
+4.map
+a> map_id -------------------- user's map_id
+b> map_kind ------------------ the kind of the user when he open the map
+c>start_lon ------------------ the lon of the start place
+d>start_lat ------------------ the lat of the start place
+e>stop_lon ------------------- the lon of the stop place
+f>stop_lat ------------------- the lat of the stop place
+g>map_lon -------------------- the user's current lon
+h>map_lat -------------------- the user's current lat
+i>order_id ------------------- when users know the detail about order
+
+5.system
+a>mutex ---------------------- atom operation
+b>stop ----------------------- stop operation 

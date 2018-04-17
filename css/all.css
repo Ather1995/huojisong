@@ -1,0 +1,33 @@
+html body {
+    	min-height: 100%;
+    	background-color: #f9f9f9;
+   		width: 100%;
+    	text-align: center;
+    	display: inline-block;
+    	margin: 0;
+    }
+.block1{
+	height: 100%;
+}
+.block1 img{
+	margin-top: 100px;
+	width: 25%;
+}
+
+.block2{
+	font-size: 1em;
+	margin-top: 25px;
+
+}
+.block3{
+	margin: auto;
+	font-size: 1em;
+	margin-top: 35px;
+	border: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	border-color: red;
+	width: 30%;
+	text-align: center;
+
+}

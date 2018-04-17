@@ -1,0 +1,86 @@
+*{margin:0;padding:0;}
+        header{ background-color: #005950;}
+        header ul li { height: 50px; line-height: 40px; text-align: center; display: none; color: #ffffff; position: relative;font-size: 18px;  }
+        header ul li.active{ display: block; }
+        header ul li .item{
+            /*display: inline-block;*/
+        }
+        header ul li.active .text{
+                margin: 0 auto;
+                border-radius: 10px;
+                width: 100px;
+                height: 30px;
+                line-height: 30px;
+                border: solid;
+                border-width: 2px;
+                border-color: #ffffff;
+                
+                 border-radius: 8px;
+                 color: #fff ;
+        }
+        
+        header ul li.active .text2{
+                margin: 0 auto;
+                border-radius: 10px;
+                width: 100px;
+                height: 30px;
+                line-height: 30px;
+                border: solid;
+                border-width: 2px;
+                border-color: #ffffff;
+                
+                 border-radius: 8px;
+                 color: #fff ;
+        }
+
+        header ul li.active .text .item.active{
+			background: white;
+            color: #037467;
+
+        }
+        header ul li.active .text .left.active{
+            border-top-left-radius:5px;
+            /*border-top-right-radius:2em;*/
+            /*border-bottom-right-radius:2em;*/
+            border-bottom-left-radius:5px;
+        }
+        header ul li.active .text .right.active{
+           /* border-top-left-radius:2em;*/
+            border-top-right-radius:5px;
+            border-bottom-right-radius:5px;
+            /*border-bottom-left-radius:2em;*/
+        }
+        /*header ul li.active .text .disactive{
+            background:#ffffff;
+        }*/
+        header ul li.active .text2 .item.active{
+            background: white;
+			color: #037467;
+        }
+		header ul li.active .text2 .left.active{
+            border-top-left-radius:5px;
+            /*border-top-right-radius:2em;*/
+            /*border-bottom-right-radius:2em;*/
+            border-bottom-left-radius:5px;
+        }
+        header ul li.active .text2 .right.active{
+           /* border-top-left-radius:2em;*/
+            border-top-right-radius:5px;
+            border-bottom-right-radius:5px;
+            /*border-bottom-left-radius:2em;*/
+        }
+        #footer{  background-color: #f2f2f2; }
+        #footer ul li{  padding-top: 36px; padding-bottom: 4px; background: url() no-repeat center 2px; background-size: auto 30px; text-align: center; }
+        #footer ul li.active{ color: #037467; }
+        #footer ul li:nth-child(1){ background-image: url(../image/bt_order01.png); }
+        #footer ul li:nth-child(2){ background-image: url(../image/bt_activity01.png); }
+        #footer ul li:nth-child(3){ background-image: url(../image/bt_order_management01.png); }
+        #footer ul li:nth-child(4){ background-image: url(../image/bt_my01.png); }
+        #footer ul li:nth-child(1).active{ background-image: url(../image/bt_order02.png); }
+        #footer ul li:nth-child(2).active{ background-image: url(../image/bt_activity02.png); }
+        #footer ul li:nth-child(3).active{ background-image: url(../image/bt_order_management02.png); }
+        #footer ul li:nth-child(4).active{ background-image: url(../image/bt_my02.png); }
+    	
+    	.text{display:-webkit-box;-webkit-box-orient:horizontal;}
+    	.text2{display:-webkit-box;-webkit-box-orient:horizontal;}
+    	.item{-webkit-box-flex:1;}

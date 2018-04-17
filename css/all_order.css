@@ -1,0 +1,83 @@
+html body {
+    	min-height: 100%;
+    	max-width: 100%;
+    	background-color: #E3E2E1;
+    	margin: 0px;
+    }
+    .block{
+    	display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+    box-shadow: 3px 3px 8px #cac8c6;
+    -webkit-box-align: center;
+    }
+    .block .left{
+    	-webkit-box-flex: 1;
+    	display: -webkit-box;
+        -webkit-box-orient: vertical;
+        padding-right: 5px;
+        /*-webkit-box-align: center;*/
+    }
+    .block .image{
+        height: 17.5px;	
+    max-width: 10px;
+    min-width: 10px;
+    margin-right: 5px;
+    display: flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-align: center;
+    }
+    .block .image img{
+    	width: 100%;
+    max-width: 10px;
+    
+    }
+    .block .left .line{
+    	-webkit-box-flex: 1;  	
+    	font-size: 12px;
+    	margin-bottom: 3px;
+    }
+    .block .left .line .text{
+    	display: inline-block;
+    	-webkit-box-flex:1;
+    }
+    .block .left .line .right{
+    	float: right;
+    	display: flex;
+    }
+    .block .left .line .price{
+    	color: red;
+    }
+    .block .left .line .status{
+    height: 12px;
+    line-height: 12px;
+    border-radius: 3px;
+    background-color: #037467;
+    height: 12px;
+    color: white;
+    padding: 2px;
+    }
+    .block .left .line .unfinished{
+    	background-color: red;
+    }
+    .block .left .line .canceled{
+    	background-color: gray;
+    }
+    .block .left .line .serve{
+    	background-color: yellow;
+    }    
+    .block .left .score{
+    	text-align: center;
+    }
+    .block .left .score .mytext{
+    	text-align: center;
+    	border-radius: 4px;
+    	border: 1px solid #037467;
+    	background-color: #fff;
+    	color: #037467;
+    	margin-left: 100px;
+    	margin-right: 85px;
+    }

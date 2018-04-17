@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	<title>qiangdan</title>
+	<link rel="stylesheet" type="text/css" href="../../css/all_order.css" />
+	<style type="text/css">
+		html body {
+    	min-height: 100%;
+    	max-width: 100%;
+    	background-color: #f9f9f9;
+    	margin: 3px;
+    }
+    .block{
+    }
+    .line1{
+    	display: -webkit-box;
+    -webkit-box-align: center;
+    }
+    .line2{
+    	margin-top: 3px;
+    	display: -webkit-box;
+    	-webkit-box-orient:horizontal;   	
+    }
+    .line3{
+    	margin-top: 3px;
+    	display: -webkit-box;
+    	-webkit-box-orient:horizontal;
+    }
+    .line4{
+    	margin-top: 3px;
+    	display: -webkit-box;
+    	-webkit-box-orient:horizontal;
+    }
+
+    .block{
+    	height: 170px;
+    	padding: 5px;
+    	margin: 5px;
+    	background-color: #dadada;
+    }
+    .block .line1 img{
+    	height: 50px;
+    }
+    .block .line1 .block2 .begin img{
+    	height: 20px;
+    	display: inline-block;
+    }
+    .block .line1 .block2 .end img{
+    	height: 20px;
+    	display: inline-block;
+    }
+    .block2{
+    	font-size: 10px;
+       	-webkit-box-flex: 1;
+    }
+    .block3{
+    	    text-align: right;
+    }
+    .begin{
+    	margin-bottom: 3px;
+    }
+    .end{
+    	margin-bottom: 5px;
+    }
+    .begintext{
+    	display: inline-block;
+    }
+    .endtext{
+    	display: inline-block;
+    }
+    .line2 .type{
+    	padding-right: 5px;
+    }
+    .line2 .text2{
+    	color: red;
+    	-webkit-box-flex:1;
+    	text-align: right;
+    	margin-right: 5px;
+    }
+    .line2 .tag1{
+    	border-radius: 3px;
+    	background-color: blue;
+    	color: white;
+    	padding: 2px;
+    }
+    .line4 .cartype{
+    	-webkit-box-flex:1;
+    }
+    .status{
+        margin: 5px;
+        border-radius: 3px;
+        float: right;
+        padding: 2px;
+        color: white;
+    }
+    .finish{
+    background-color: green;
+    }
+    .canceled{
+    background-color: grey;
+    }
+    .unfinished{
+    	background-color: red;
+    }
+    
+    .tabBar{
+    margin-top:10px;
+    height: 30px;
+    }
+    .tabBar_inner{
+    float: left;
+    width: 20%;
+    text-align:center;
+    height: 20px;
+    }
+    .text{
+    font-size:12px;
+    }
+	
+	</style>
+</head>
+<body>
+
+
+<div class="tabBar">
+                    <div class="tabBar_inner">
+                        <span class="text">出发地</span>
+                        <img src="../../image/little_arrow_down.png" style="height: 10px">
+                    </div>
+                    <div class="tabBar_inner">
+                        <span class="text">目的地</span>
+                        <img src="../../image/little_arrow_down.png" style="height: 10px">
+                    </div>
+                    <div class="tabBar_inner">
+                        <span class="text">装货时间</span>
+                        <img src="../../image/little_arrow_down.png" style="height: 10px">
+                    </div>
+                    <div class="tabBar_inner">
+                        <span class="text">货重</span>
+                        <img src="../../image/little_arrow_down.png" style="height: 10px">
+                    </div>
+                    <div class="tabBar_inner last">
+                        <span class="text">所需车型</span>
+                        <img src="../../image/little_arrow_down.png" style="height: 10px">
+                    </div>
+ </div>
+
+	<div class="block">
+		<div class="line1">
+			<img src="../../image/mycar.png">
+			<div class="block2">
+				<div class="begin">
+					<img src="../../image/mybegin.png">
+					<div class="begintext">上海市普陀区3663号</div>
+				</div>
+				<div class="end">
+					<img src="../../image/myend.png">
+					<div class="endtext">浙江省杭州市</div>
+				</div>
+			</div>
+			<div class="block3">
+				2017-03-01
+			</div>
+		</div>
+		<div class="line2">
+			<img src="../../image/plus.png" style="height: 25px">
+			<div class="type">家具</div> 
+			<div class="text2">￥1400</div>
+			<div class="tag1">同意拼车</div>
+		</div>
+		<div class="line3">
+			<img src="../../image/plus.png" style="height: 25px">
+			<div class="time"></div>
+			2017-03-06上午
+		</div>
+		<div class="line4">
+			<img src="../../image/plus.png" style="height: 25px">
+			<div class="cartypetext">小型平板</div>
+			<div class="cartype" style="margin-left: 15px">货重：1.5吨</div>
+		</div>
+		
+	</div>
+
+</body>
+</html>

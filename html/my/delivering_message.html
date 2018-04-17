@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>账户余额</title>
+    <link rel="stylesheet" type="text/css" href="../../css/api.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/delivering_message.css"/>
+   <!--  <link rel="stylesheet" type="text/css" href="../../css/common.css"/> -->
+    <style>
+        
+    </style>
+</head>
+<body id="index">
+    <!-- <div id="header">
+        <div class="image">
+        <img src="../../image/goback.png" onclick="goback()">
+        </div>
+        <div class="text1">发货信息</div>
+        <div class="image mymap">&nbsp&nbsp&nbsp切换地图选点</div>
+</div> -->
+<div id="header">
+        <div class="image">
+            <img src="../../image/goback.png" onclick="goback()">
+        </div>
+        <div class="text1">发货信息</div>
+        <div class="text2">切换地图选点</div>
+    </div>
+
+
+    
+    <div id="main">
+       
+     <div class="egret-flex-item isolateitem-top" tapmode="fmbtnhover" >
+    <div class="egret-flex-item-logo">
+        <img src="../../image/search.png" alt="" class="">
+    </div>
+    <div class="egret-flex-item-shelf">
+        <div class="egret-flex-item-shelf01">
+            <input type="text" placeholder="华东师范大学"></div>
+    </div>
+    
+</div>
+ <div class="egret-flex-item useragreement" tapmode="fmbtnhover" onclick="openNewWin('settingtime')">
+    <div class="egret-flex-item-logo">
+        <img src="../../image/building.png"alt="" class="">
+    </div>
+    <div class="egret-flex-item-shelf">
+        <div class="egret-flex-item-shelf01">
+            <input type="text" placeholder="请补充详细地址如门牌号" ></div>
+        </div>
+    </div>
+    
+</div>
+             
+    <div class="egret-flex-item isolateitem-top" tapmode="fmbtnhover" onclick="openNewWin('')">
+    <div class="egret-flex-item-logo">
+        <img src="../../image/men.png" alt="" class="">
+    </div>
+    <div class="egret-flex-item-shelf">
+        <div class="egret-flex-item-shelf01">
+          <input type="text4" placeholder="请输入发货人姓名（可不填）" >
+            </div>
+    </div>
+    
+</div>
+<div class="egret-flex-item useragreement" tapmode="fmbtnhover" onclick="openNewWin('')">
+    <div class="egret-flex-item-logo">
+        <img src="../../image/pone.png" alt="" class="">
+    </div>
+    <div class="egret-flex-item-shelf">
+        <div class="egret-flex-item-shelf01"> <input type="text" placeholder="请输入手机号码"></div></div>
+    </div>
+
+</div>
+
+    
+    </div>
+    <div id="footer">
+    <div class="bottom1"></div>
+    <div class="exitbtn" tapmode="exitbtnhover">确认</div>
+    <div class="bottom1"></div>
+    </div>
+
+</body>
+<script type="text/javascript" src="../../script/api.js"></script>
+<script type="text/javascript">
+    apiready = function(){
+        
+    };
+    function goback () {
+    api.closeWin({name:'delivering_message'});
+}
+</script>
+</html>

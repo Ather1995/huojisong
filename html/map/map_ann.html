@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>title</title>
+    <link rel="stylesheet" type="text/css" href="../../css/api.css"/>
+    <style>
+    body,html{height:100%;width:100%;}
+    img{height:100%;width:100%;}
+    </style>
+</head>
+<body>
+	<img src="../../image/start.png" id="icon"/>
+</body>
+<script type="text/javascript" src="../../script/api.js"></script>
+<script type="text/javascript">
+	apiready = function(){
+		var map_kind=$api.getStorage("map_kind");
+		if(map_kind=="start")
+		{
+			var src="../../image/start.png";
+			document.getElementById('icon').src=src;
+		}
+		else
+		{
+			var src="../../image/end.png";
+			document.getElementById('icon').src=src;
+		}
+	};
+</script>
+</html>

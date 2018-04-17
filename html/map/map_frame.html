@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>title</title>
+    <link rel="stylesheet" type="text/css" href="../../css/api.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/map_frame.css"/>
+    <style>
+
+    </style>
+</head>
+<body>
+	<div class="content">
+		<div class="back_wrap" onclick="back()">
+			<div class="back_box_f"></div>
+			<div class="back_box"></div>
+			<div class="back_box_b"></div>
+		</div>
+		<div class="line_back_input_wrap">
+			<div class="line_back_input_f"></div>
+			<div class="line_back_input"></div>
+			<div class="line_back_input_b"></div>
+		</div>
+		<div class="input_wrap">
+			<input type="text" id="search" placeholder="搜索地址" oninput="searchPoint()" onfocus="startSearch()">
+		</div>
+		<div class="line_back_input_wrap">
+			<div class="line_back_input_f"></div>
+			<div class="line_back_input"></div>
+			<div class="line_back_input_b"></div>
+		</div>		
+		<div class="font_wrap" id="city_wrap" onclick="searchCity()">
+			<div class="font_city_f"></div>
+			<div class="font_city" id="city">北京市</div>
+			<div class="font_city_b"></div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="../../script/api.js"></script>
+<script type="text/javascript" src="../../script/map_frame.js"></script>
+
+</html>

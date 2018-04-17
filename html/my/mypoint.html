@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>我的积分</title>
+    <link rel="stylesheet" type="text/css" href="../../css/api.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/mypoint.css">
+</head>
+<body id="index">
+<div style="height:25px;background-color: #005a4e;"></div>
+	<div id="header">
+        <div class="image">
+            <img src="../../image/goback.png" onclick="goback()">
+        </div>
+        <div class="text1">我的积分</div>
+        <div class="text2"></div>
+    </div>
+    
+    <!-- <div class="middle">
+    	<div class="pointinf">
+    		<div class="pointtext">
+    			<img src="../../image/point.png">
+    			<div class="text2">可用积分：</div>
+    		</div>
+    		<div class="text3">0</div>
+    	</div>
+    </div> -->
+    
+
+    <div class="icon">
+        <div class="iconimg" align="center"><img src="../../image/point.png"></div >
+        <div class="icontext1" align="center">可用积分：</div>
+        <div class="icontext2" align="center">0</div>   
+    </div>
+    
+        
+
+    <div id="footer">
+
+        <div class="coupon">
+            <div class="coupon1 left">
+                <div class="line1">
+                <div class="black"></div>
+                    <div class="discount">
+                        9折
+                    </div>
+                    <div class="text1">
+                        优惠卷
+                    </div>
+                    <div class="black"></div>
+                </div>
+                <div class="line2">
+                <div class="black"></div>
+                    <div class="number">
+                        698
+                    </div>
+                    <div class="text2">
+                        积分兑换
+                    </div>
+                    <div class="black"></div>
+                </div>
+                
+            </div>
+
+            <div class="coupon1 right">
+                <div class="line1">
+                <div class="black"></div>
+                    <div class="discount">
+                        9折
+                    </div>
+                    <div class="text1">
+                        优惠卷
+                    </div>
+                    <div class="black"></div>
+                </div>
+                <div class="line2">
+                <div class="black"></div>
+                    <div class="number">
+                        698
+                    </div>
+                    <div class="text2">
+                        积分兑换
+                    </div>
+                    <div class="black"></div>
+                </div>
+                
+            </div>
+        </div>
+       <div class="texttitle">什么是积分？</div>
+       <div class="text">积分是用户在货急送消费获得的奖励，消费1元得1积分，可在积分平台兑换礼品。</div>
+    </div>
+</body>
+<script type="text/javascript" src="../script/api.js"></script>
+<script type="text/javascript">
+	apiready = function(){
+		
+	};
+    function goback () {
+    api.closeWin({name:'mypoint'});
+}
+</script>
+</html>

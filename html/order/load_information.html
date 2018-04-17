@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>车载情况</title>
+    <link rel="stylesheet" type="text/css" href="../../css/load_information.css">
+    
+</head>
+<body id="index">
+
+    <div id="header">
+        <div class="image">
+            <img src="../../image/goback.png" onclick="goback()">
+        </div>
+        <div class="text1">车载情况</div>
+        <div class="text2"></div>
+    </div>
+    <div id="main">
+    	<div class="icon">
+    		 <div class="text1">基本信息</div>
+    		 <div class="mytext">
+             <div class="black"></div>
+                <textarea placeholder="为了解您的货车是否已载有货物，请输入您货车可载货情况（如：整车，半车，剩余1/3空间，诸如此类）" class="mytextarea"></textarea>
+                <div class="black"></div>
+ 			</div>
+ 		</div>
+    </div>
+    
+    <div id="footer">
+    <div class="bottom1"></div>
+    <div class="exitbtn" tapmode="exitbtnhover">确认</div>
+    <div class="bottom1"></div>
+    </div>
+
+</body>
+<script type="text/javascript" src="../../script/api.js"></script>
+<script type="text/javascript">
+    apiready = function(){
+        
+    };
+</script>
+</html>
+<!-- 
+<script language="JavaScript" type="text/javascript">
+  function addListener(element,e,fn){
+    if(element.addEventListener){
+       element.addEventListener(e,fn,false);
+     } else {
+       element.attachEvent("on" + e,fn);
+     }
+  }
+  var myinput = document.getElementById("myinput");
+  addListener(myinput,"click",function(){
+  myinput.value = "";
+  })
+  addListener(myinput,"blur",function(){
+  myinput.value = "为了解您的货车是否已载有货物，请输入您货车可载货情况（如：整车，半车，剩余1/3空间，诸如此类）";
+  })
+</script> -->

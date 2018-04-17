@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	<title>新用户注册</title>
+	<link rel="stylesheet" type="text/css" href="../css/api.css" />
+    <link rel="stylesheet" type="text/css" href="../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../css/register.css" />
+</head>
+<body id="index">
+<div id="content" class="content">
+	<div id="header">
+		<div class="image">
+			<img src="../image/goback.png" onclick="backToLogin()">
+		</div>
+		<div class="text1">新用户注册</div>
+		<div class="text2">已有账号</div>
+		</div>
+
+<div class="editpart">
+
+    <div class="item">
+    <input type="text" name="phone_number" placeholder="请输入手机号码" id="tel">
+    </div>
+
+    <div class="item1" style="display:none">
+        <div class="verify verify1"> <input type="text" name="verify" placeholder="验证码"> </div>
+        <div class="verify verify2">获取验证码</div> 
+    </div>
+        
+    <div class="item">
+        <input type="password" name="password" placeholder="请输入6-12位字母或数字密码" id="pw">
+    </div>
+
+    <div class="item">
+        <input type="password" name="password2" placeholder="请再次输入密码" id="pw_again">
+    </div>
+
+    <div class="item" style="display:none;">
+        <div class="city1">请选择所在城市</div>
+        <img src="../image/jiantou.png">
+    </div>
+
+    <div class="text">
+        <div class="text1">点击注册完成代表你已同意</div>
+        <div class="text2">《司机注册及服务协议》</div>
+    </div>
+
+    <div class="register" onclick="regist()" style="height:40px;">
+    	<button style="color:white;height:100%;width:100%;border-radius:5px;background: #037467;outline:none;">注册</button>
+    </div>
+</div>
+</div>
+</body>
+<script type="text/javascript" src="../script/api.js"></script>
+<script type="text/javascript" src="../script/register.js"></script>
+</html>

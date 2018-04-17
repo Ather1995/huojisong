@@ -1,0 +1,102 @@
+html, body {
+    min-height: 100%;
+    background-color: #E3E2E1;
+}
+.main{
+    padding-bottom: 250px;
+    background-color: white;
+}
+            #index #header
+            {
+            height: 60px;
+            color: #fff;
+            background-color:#005a4e;
+            background: #037467;
+            display: -webkit-box;
+            -webkit-box-orient: horizontal;
+            -webkit-box-align: center;
+        }
+        #index #header .image{
+            height:50px;
+            width:62px;
+        }
+        #index #header .image img{
+            position: inherit;display: inline-block;float: left;margin-top: 15px;
+            height: 20px;
+            margin-left: 10px;
+        }
+
+        #index #header .text1{
+                text-align: center;
+            font-size: 18px;
+            -webkit-box-flex: 1;
+        }
+
+        #index #header .text2{
+            font-size: small;
+            width: 62px;
+        }
+        #footer {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    height: 2em;
+    line-height: 2em;
+    position: fixed;
+    bottom: 0;
+    color: #037467;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+#footer .bottom1 {
+    width: 10px;
+}
+#footer .exitbtn {
+    -webkit-box-flex: 1;
+    border-radius: 4px;
+    border: 1px solid #037467;
+    background-color: #fff;
+}
+.exitbtnhover {background-color: #037467;color: #fff;}
+.fmbtnhover {background: #D8D9DA ;}
+
+.block1{
+    padding: 10px;
+        margin-top: 10px;
+}
+.line1{
+        display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: center;
+        margin-top: 10px;
+}
+
+.line1 .text_border{
+    width: 30%;
+    height: 40px;
+        display: -webkit-box;
+    -webkit-box-orient: vertical;
+        border-radius: 4px;
+    border: 1px solid #037467;
+
+}
+.black{
+    -webkit-box-flex: 1;
+}
+.text_1{
+    text-align: center;
+    font-size: 13px;
+    color:black;
+        /*height: 20px;
+    line-height: 30px;*/
+    -webkit-box-flex: 1;
+    bottom: 0px;
+    padding-top: 5px;
+}
+.text_2{
+    text-align: center;
+    font-size: 10px;
+    color: #5d6767;
+    -webkit-box-flex: 1;
+    padding-bottom: 6px;
+}

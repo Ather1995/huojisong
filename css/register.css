@@ -1,0 +1,133 @@
+	
+		html, body {
+    min-height: 100%;
+    background-color: #E3E2E1;
+}
+
+#index #header
+			{
+            height: 60px;
+			color: #fff;
+			background-color:#005a4e;
+			background: #037467;
+			display: -webkit-box;
+			-webkit-box-orient: horizontal;
+			-webkit-box-align: center;
+        }
+		#index #header .image{
+			height:50px;
+			width:62px;
+		}
+        #index #header .image img{
+            position: inherit;display: inline-block;float: left;margin-top: 15px;
+            height: 20px;
+            margin-left: 10px;
+        }
+
+        #index #header .text1{
+            font-size: 18px;
+			text-align: center;
+			-webkit-box-flex: 1;
+        }
+
+        #index #header .text2{
+            font-size: small;
+			    width: 62px;
+        }
+		#header{
+		text-align:center;
+		width:100%;
+		height:50px;
+		background:#CDCDC1;
+		}
+
+ 
+ .editpart .item{
+ 	box-shadow: 3px 3px 8px #aba095;
+    background-color: white;
+    height: 30px;
+    line-height: 30px;
+    margin: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    font-size: 13px;
+ }
+
+ .editpart .item1{
+ 	height: 35px;
+    line-height: 35px;
+    margin: 10px;
+    
+    margin-bottom: 0px;
+ }
+ .editpart .item input{
+ 	width: 100%;
+ 	outline:none;
+    padding-left: 5px;
+ }
+  .editpart .item1 .verify{
+  	display: inline-block;
+  }
+  .editpart .item1 .verify1{
+  	width: 48%;
+  	background-color: white;
+  	border-radius: 5px;
+  }
+  .editpart .item1 .verify1 input{
+  	padding-left: 5px;
+  }
+  .editpart .item1 .verify2{
+  	width: 48%;
+  	background-color: blue;
+  	border-radius: 5px;
+  	float: right;
+  	text-align: center;
+  	color: white;
+  }
+
+  .editpart .item .city1{
+  	display: inline-block;
+  }
+
+  .editpart .item img{
+  	display: inline-block;
+  	height: 25px;
+  	line-height: 35px;
+  	float: right;
+  	margin: 5px;
+  	margin-right: 10px;
+
+  }
+
+  .editpart .text{
+  	height: 35px;
+    line-height: 35px;
+    margin: 10px;
+    margin-bottom: 0px;
+    padding-left: 5px;
+    text-align: center;
+  }
+
+  .editpart .text .text1{
+  	display: inline-block;
+  	font-size: 5px;
+  }
+
+  .editpart .text .text2{
+  	display: inline-block;
+  	font-size: 5px;
+  	    color: #037467;
+  }
+
+  .editpart .register{
+ 	height: 35px;
+    line-height: 35px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    padding-left: 5px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+  }

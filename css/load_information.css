@@ -1,0 +1,77 @@
+  html, body {
+    min-height: 100%;
+    background-color: #E3E2E1;
+    margin:0;
+}
+    
+       #index #header
+            {
+            height: 60px;
+            color: #fff;
+            background-color:#005a4e;
+            background: #037467;
+            display: -webkit-box;
+            -webkit-box-orient: horizontal;
+            -webkit-box-align: center;
+        }
+        #index #header .image{
+            height:50px;
+            width:62px;
+        }
+        #index #header .image img{
+            position: inherit;display: inline-block;float: left;margin-top: 15px;
+            height: 20px;
+            margin-left: 10px;
+        }
+
+        #index #header .text1{
+                text-align: center;
+            font-size: 18px;
+            -webkit-box-flex: 1;
+        }
+
+        #index #header .text2{
+            font-size: small;
+            width: 62px;
+        }
+
+  #footer {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    height: 2em;
+    line-height: 2em;
+    position: fixed;
+    bottom: 0;
+    color: #037467;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+
+        #footer .bottom1 {
+    width: 10px;
+}
+#footer .exitbtn {
+    -webkit-box-flex: 1;
+    border-radius: 4px;
+    border: 1px solid #037467;
+    background-color: #fff;
+}
+.exitbtnhover {background-color: #037467;color: #fff;}
+.fmbtnhover {background: #D8D9DA ;}
+
+.mytextarea{
+    height:120px; padding-top:2px;overflow:scroll;
+    width: 250px;
+}
+#main .icon .text1{
+    margin: 10px;
+}
+.black{
+    -webkit-box-flex:1;
+}
+.mytext{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align:center;
+}

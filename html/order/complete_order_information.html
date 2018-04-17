@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	<title>完善订单信息</title>
+	<link rel="stylesheet" type="text/css" href="../../css/api.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/complete_order_information.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/complete_order_information_body.css"/>
+    
+</head>
+<body id="index">
+<div style="height:25px;background-color: #005a4e;"></div>
+	<div id="header">
+		<div class="image">
+			<img src="../../image/goback.png" onclick="goback()">
+		</div>
+		<div class="text1">完善订单信息</div>
+		<div class="text2">常用路线</div>
+	</div>
+<!-- 用车时间 -->
+    
+    <div class="egret-flex-item isolateitem-top isolateitem-bottom" tapmode="fmbtnhover" onclick="openNewWin('')">
+        <div class="egret-flex-item-logo">
+            <img src="../../image/ic_car_use_time.png" alt="" class="">
+        </div>
+        <div class="egret-flex-item-shelf">
+            <div class="egret-flex-item-shelf01">用车时间</div>
+        </div>
+        <div class="egret-flex-item-arrow">
+            <img src="../../image/jiantou.png" alt="" class="">
+        </div>
+    </div>
+    
+    <!-- 输入起始地与目的地 -->
+    <div class="egret-flex-item isolateitem-top" tapmode="fmbtnhover" onclick="startPlace()">
+        <div class="egret-flex-item-logo">
+            <img src="../../image/ic_start.png" alt="" class="">
+        </div>
+        <!-- <div style="border-bottom: 4px;"> -->
+        <div class="egret-flex-item-shelf">
+            <div class="egret-flex-item-shelf01" id="orign" >请输入起始地</div>
+        </div>
+        <div class="egret-flex-item-arrow">
+            <img src="../../image/jiantou.png" alt="" class="">
+        </div>
+    </div>
+
+    <div class="myborder">
+        <div class="border_left"></div>
+        <div class="border_middle"></div>
+        <div class="border_right"></div>
+    </div>
+
+    <div class="egret-flex-item" tapmode="fmbtnhover" onclick="stopPlace()">
+        <div class="egret-flex-item-logo">
+            <img src="../../image/ic_end.png" alt="" class="">
+        </div>
+        <div class="egret-flex-item-shelf">
+            <div class="egret-flex-item-shelf01" id="destination" >请输入目的地</div>
+        </div>
+        <div class="egret-flex-item-arrow">
+            <img src="../../image/jiantou.png" alt="" class="">
+        </div>
+    </div>
+    <div class="myborder">
+        <div class="border_left"></div>
+        <div class="border_middle"></div>
+        <div class="border_right"></div>
+    </div>
+
+    <div class="egret-flex-item isolateitem-bottom" tapmode="fmbtnhover" onclick="openNewWin('')">
+        <div class="egret-flex-item-logo">
+            <img src="../../image/ic_add_des.png" alt="" class="" style="width: 2em;">
+        </div>
+        <div class="egret-flex-item-shelf">
+            <div class="egret-flex-item-shelf01" style="
+        font-size: 0.8em;">添加目的地（请按照卸货顺序）</div>
+        </div>
+        <div class="egret-flex-item-arrow">
+            <img src="../../image/jiantou.png" alt="" class="">
+        </div>
+    </div>
+    
+    
+    <!-- 其他 -->
+    <div class="egret-flex-item isolateitem-top" tapmode="fmbtnhover" onclick="openNewWin('extra_r')">
+        <div class="egret-flex-item-logo">
+            <img src="../../image/ic_other_service.png" alt="" class="">
+        </div>
+        <div class="egret-flex-item-shelf">
+            <div class="egret-flex-item-shelf01">额外服务</div>
+        </div>
+        <div class="egret-flex-item-arrow">
+            <img src="../../image/jiantou.png" alt="" class="">
+        </div>
+    </div>
+
+    <div class="myborder">
+        <div class="border_left"></div>
+        <div class="border_middle"></div>
+        <div class="border_right"></div>
+    </div>
+
+
+
+    <div class="egret-flex-item isolateitem-bottom" tapmode="fmbtnhover" onclick="openNewWin('')">
+        <div class="egret-flex-item-logo">
+            <img src="../../image/ic_word.png" alt="" class="">
+        </div>
+        <div class="egret-flex-item-shelf">
+            <div class="egret-flex-item-shelf01">给司机捎句话</div>
+        </div>
+        <div class="egret-flex-item-arrow">
+            <img src="../../image/jiantou.png" alt="" class="">
+        </div>
+    </div>
+    
+    <!-- 计算价钱 -->
+    <div class="amount" style="border-bottom: 1px solid #e0e0e0;-webkit-box-align: center;
+        height: 5em;
+        background-color: #fff;
+        margin: 15px 20px;
+            border: 1px solid #e0e0e0;
+            text-align: center;">
+        <div style="    min-width: 100%;
+        display: block;height: 3em;border-bottom: 1px solid #e0e0e0;    line-height: 3em;">约￥:
+        <div style="display: inline; font-size: x-large;
+        color: #6633a5;" id="price"></div>
+        </div>
+        <div style="    line-height: 2em;">实际费用可能因等候时间而异</div>
+    </div>
+    <!-- 下一步 -->
+    <div class="exitbtn" tapmode="exitbtnhover" onclick="nextStep()">下一步</div>
+
+</body>
+<script type="text/javascript" src="../../script/api.js"></script>
+<script type="text/javascript" src="../../script/complete_order_information.js"></script>
+<script type="text/javascript">
+</script>
+</html>

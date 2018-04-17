@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0">
+	<title>筛选</title>
+	<link rel="shortcut icon" href="/favicon.ico">
+  	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  	<link rel="stylesheet" type="text/css" href="../css/api.css">
+    <link rel="stylesheet" type="text/css" href="../../css/search.css">
+    <style type="text/css">
+        .button{
+              position: fixed;
+              bottom: 0;
+              display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: center;
+    width: 60%;
+    height: 40px;
+        }
+        .button .reset{
+          background-color: #037467;
+          color: white;
+           display: -webkit-box;
+    -webkit-box-orient: horizontal;
+            -webkit-box-flex: 1;
+                height: 100%;
+    line-height: 40px;
+        }
+        .button .finish{
+          background-color: #cfecea;
+          color: #037467;
+           display: -webkit-box;
+    -webkit-box-orient: horizontal;
+            -webkit-box-flex: 1;
+            height: 100%;
+    line-height: 40px;
+        }
+    </style>
+</head>
+<body>
+	<div class="total">
+        <div class="line1">
+        <div class="text1">输入目的地</div>
+        <div class="black"></div>
+        <div class="arrow">
+            <img src="../../image/jiantou.png">
+        </div>
+      </div>
+
+      <div class="line1">
+        <div class="text1">输入起始地</div>
+        <div class="black"></div>
+        <div class="arrow">
+            <img src="../../image/jiantou.png">
+        </div>
+      </div>
+
+      <div class="line2">
+      <div class="left">
+        <div class="text1">货车类型：</div>
+        <div class="choose_car">
+          <div class="myline">
+            <label><input name="choose_car" type="radio" value="" />小型面包</label> 
+            <label><input name="choose_car" type="radio" value="" />大型面包</label> 
+          </div>
+          <div class="myline">
+            <label><input name="choose_car" type="radio" value="" />小型平板</label> 
+            <label><input name="choose_car" type="radio" value="" />大型平板</label> 
+          </div>
+          </div>
+        </div>
+        <div class="black"></div>
+       <!--  <div class="arrow">
+            <img src="../../image/jiantou.png">
+        </div> -->
+      </div>
+
+
+
+
+
+      <div class="line2">
+      <div class="left">
+        <div class="text1">是否允许拼车：</div>
+        <div class="choose_car">
+          <div class="myline">
+            <label><input name="choose_car" type="radio" value="" />是</label> 
+            <label><input name="choose_car" type="radio" value="" />否</label> 
+          </div>
+          </div>
+        </div>
+        <div class="black"></div>
+        <!-- <div class="arrow">
+            <img src="../../image/jiantou.png">
+        </div> -->
+      </div>
+
+      <div class="line3">
+          <div class="text1">用车时间：</div>
+          <div class="input_text">
+              <div class="input1">
+                 <input type="text" name="">
+              </div>
+              <div class="line">至</div>
+              <div class="input1">
+                 <input type="text" name="">
+              </div>
+          </div>
+      </div>
+      
+      <div class="line3">
+          <div class="text1">价格区间：</div>
+          <div class="input_text">
+              <div class="input1">
+                 <input type="text" name="">
+              </div>
+              <div class="line">至</div>
+              <div class="input1">
+                 <input type="text" name="">
+              </div>
+          </div>
+      </div>
+      <div class="button">
+        <div class="reset">
+            <div class="black"></div>
+            重置
+            <div class="black"></div>
+        </div>
+        <div class="finish">
+          <div class="black"></div>
+          完成
+          <div class="black"></div>
+        </div>
+      </div>
+  </div>
+</body>
+<script type="text/javascript" src="../script/api.js"></script>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html><head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>账户余额</title>
+    <link rel="stylesheet" type="text/css" href="../../css/api.css">
+    <link rel="stylesheet" type="text/css" href="../../css/account_balance.css">
+    <style>
+    	
+    </style>
+</head>
+<body id="index">
+	<div style="height:25px;background-color: #005a4e;"></div>
+	 <div id="header">
+        <div class="image">
+            <img src="../../image/goback.png" onclick="goback()">
+        </div>
+        <div class="text1">我的账户余额</div>
+        <div class="text2"></div>
+    </div>
+
+	<div id="main">
+	<div class="icon">
+	<img src="../../image/money.png">
+   <div class="icontext" align="center">暂无交易信息</div>
+	</div>
+	
+	</div>
+	<div id="footer">
+		<div class="bottom1"></div>
+		<div class="exitbtn" tapmode="exitbtnhover" onclick="nextStep()">立即充值</div>
+		<div class="bottom1"></div>
+	</div>
+</body>
+<script type="text/javascript" src="../../script/api.js"></script>
+<script type="text/javascript">
+	apiready = function(){
+		
+	};
+	function goback () {
+    api.closeWin({name:'account_balance'});
+}
+</script>
+</html>

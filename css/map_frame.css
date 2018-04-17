@@ -1,0 +1,27 @@
+	html,body{height:100%;width:100%;}
+    	
+	/*the header of the map which controls some operation
+	  such as go back to the last html ,search some other
+	  place etc.*/
+	.content{display:-webkit-box;-webkit-box-orient:horizontal;background:white;height:100%;width:100%;}
+  
+	/*just size of some content such as back arrow , input 
+	 *box and city info*/
+	
+	.input_wrap{height:100%;-webkit-box-flex:1;}
+	
+	
+	.back_wrap{height:100%;width:50px;display:-webkit-box;-webkit-box-orient:vertical;}
+	.back_box_b,.back_box_f{-webkit-box-flex:1;width:100%;}
+	.back_box{height:25px;width:11px;margin-left:auto;margin-right:auto;background:url(../image/back.png) no-repeat center;background-size:100% 100%;}
+	
+	.line_back_input_wrap{width:1px;height:100%;display:-webkit-box;-webkit-box-orient:vertical;}
+	.line_back_input_b,.line_back_input_f{-webkit-box-flex:1;width:100%;}
+	.line_back_input{height:60%;width:100%;border-right:1px #cccccc solid;}
+	
+	#search{height:100%;width:100%;font-size:18px;font-family:NC Normal;color:#666666;outline:none;margin-left:20px;}
+	#search::-webkit-input-placeholder{line-height:120%}
+	
+	.font_wrap{height:100%;width:70px;font-family:NC Normal;display:-webkit-box;-webkit-box-orient:vertical;}
+	.font_city_b,.font_city_f{width:100%;-webkit-box-flex:1;}
+	.font_city{font-size:18px;color:#666666;text-align:center;overflow:hidden;}
